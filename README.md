@@ -23,7 +23,7 @@ Users should be able to view the optimal layout depending on their device's scre
 
 ### Screenshot
 
-![Desktop-View](./screenshot/ss-Penguin-Fashion)
+![Desktop-View](./screenshot/ss-Penguin-Fashion.png)
 
 ### Links
 
