@@ -13,24 +13,34 @@
   </head>
   <body>
     <header class="bg-yellow-100">
-      <nav class="navbar-nav flex items-center justify-evenly pt-8">
+      <nav
+        class="
+          navbar-nav
+          flex
+          items-center
+          justify-evenly
+          pt-8
+          invisible
+          xl:visible
+        "
+      >
         <div class="div-brand-image">
           <img src="./icons/Group 33072.png" alt="brand-image" class="w-2/4" />
         </div>
         <div class="nav-lists font-medium">
           <ul class="flex space-x-8 text-gray-800">
-            <li><a class="p-2" href="#">Home</a></li>
-            <li><a class="p-2" href="#">Product</a></li>
-            <li><a class="p-2" href="#">About us</a></li>
-            <li><a class="p-2" href="#">Contact us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
           </ul>
         </div>
       </nav>
       <div
-        class="hero-section flex justify-around items-center pt-4 pb-16 px-24"
+        class="hero-section md:flex justify-around items-center pt-4 pb-16 px-8"
       >
         <section class="content space-y-6">
-          <h1 class="text-7xl font-bold text-gray-800 uppercase">
+          <h1 class="text-4xl md:text-7xl font-bold text-gray-800 uppercase">
             <span class="text-yellow-400">Be the penguins</span> <br />
             of winter
           </h1>
@@ -41,8 +51,8 @@
           <button
             class="
               bg-green-600
-              px-4
-              py-4
+              px-3
+              py-2
               text-white
               rounded-xl
               font-medium
@@ -56,12 +66,147 @@
             Buy Now
           </button>
         </section>
-        <section class="image">
+        <section class="image py-4">
           <img src="./images/model.png" alt="hero-bg-image" />
         </section>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="container mx-auto px-4 my-20">
+        <h1 class="text-4xl uppercase font-bold text-gray-800">
+          Woman's Jackets
+        </h1>
+        <div
+          class="
+            product-container
+            lg:grid
+            grid-cols-3
+            place-items-center
+            gap-4
+            p-8
+          "
+        >
+          <div class="card shadow-lg rounded-xl p-4">
+            <div class="card-image p-4 bg-gray-100 rounded-xl">
+              <img src="./images/jacket-1.png" alt="" />
+            </div>
+            <div class="card-info mt-14">
+              <h1 class="font-bold text-gray-800 text-2xl">
+                Yellow Coat Jacket
+              </h1>
+              <p class="text-gray-800 w-4/5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="card-footer lg:flex justify-between items-center">
+              <div class="card--price">
+                <p class="font-bold text-yellow-500 text-3xl">$234</p>
+              </div>
+              <button
+                class="
+                  bg-green-600
+                  px-3
+                  py-2
+                  text-white
+                  rounded-xl
+                  font-medium
+                  transition
+                  duration-500
+                  ease-out
+                  hover:bg-yellow-500
+                "
+              >
+                <img
+                  src="icons/shopping-cart 1.png"
+                  class="w-1/4 inline"
+                  alt=""
+                />
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card shadow-lg rounded-xl p-4">
+            <div class="card-image p-4 bg-gray-100 rounded-xl">
+              <img src="./images/jacket-2.png" class="w-4/5 mx-auto" alt="" />
+            </div>
+            <div class="card-info mt-8">
+              <h1 class="font-bold text-gray-800 text-2xl">Ladies Jacket</h1>
+              <p class="text-gray-800 w-4/5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="card-footer lg:flex justify-between items-center">
+              <div class="card--price">
+                <p class="font-bold text-yellow-500 text-3xl">$334</p>
+              </div>
+              <button
+                class="
+                  bg-green-600
+                  px-3
+                  py-2
+                  text-white
+                  rounded-xl
+                  font-medium
+                  transition
+                  duration-500
+                  ease-out
+                  hover:bg-yellow-500
+                "
+              >
+                <img
+                  src="icons/shopping-cart 1.png"
+                  class="w-1/4 inline"
+                  alt=""
+                />
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card shadow-lg rounded-xl p-4">
+            <div class="card-image p-4 bg-gray-100 rounded-xl">
+              <img src="./images/jacket-3.png" alt="" />
+            </div>
+            <div class="card-info mt-0.5">
+              <h1 class="font-bold text-gray-800 text-2xl">
+                Women Lather Jacket
+              </h1>
+              <p class="text-gray-800 w-4/5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="card-footer lg:flex justify-between items-center">
+              <div class="card--price">
+                <p class="font-bold text-yellow-500 text-3xl">$634</p>
+              </div>
+              <button
+                class="
+                  bg-green-600
+                  px-3
+                  py-2
+                  text-white
+                  rounded-xl
+                  font-medium
+                  transition
+                  duration-500
+                  ease-out
+                  hover:bg-yellow-500
+                "
+              >
+                <img
+                  src="icons/shopping-cart 1.png"
+                  class="w-1/4 inline"
+                  alt=""
+                />
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
