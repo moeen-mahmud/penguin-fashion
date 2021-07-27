@@ -12,37 +12,44 @@
     />
   </head>
   <body>
-    <header>
+    <header class="bg-yellow-100">
+      <nav class="navbar-nav flex items-center justify-evenly pt-8">
+        <div class="div-brand-image">
+          <img src="./icons/Group 33072.png" alt="brand-image" class="w-2/4" />
+        </div>
+        <div class="nav-lists font-medium">
+          <ul class="flex space-x-8 text-gray-800">
+            <li><a class="p-2" href="#">Home</a></li>
+            <li><a class="p-2" href="#">Product</a></li>
+            <li><a class="p-2" href="#">About us</a></li>
+            <li><a class="p-2" href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
       <div
-        class="
-          hero-section
-          bg-yellow-100
-          flex
-          justify-around
-          items-center
-          py-16
-          px-24
-        "
+        class="hero-section flex justify-around items-center pt-4 pb-16 px-24"
       >
         <section class="content space-y-6">
           <h1 class="text-7xl font-bold text-gray-800 uppercase">
             <span class="text-yellow-400">Be the penguins</span> <br />
             of winter
           </h1>
-          <p class="w-2/3">
+          <p class="w-2/3 text-gray-700">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
           <button
             class="
-              bg-gradient-to-b
-              from-green-800
-              to-green-400
+              bg-green-600
               px-4
               py-4
               text-white
               rounded-xl
               font-medium
+              transition
+              duration-500
+              ease-out
+              hover:bg-yellow-500
             "
           >
             <img src="icons/shopping-cart 1.png" class="w-1/4 inline" alt="" />
