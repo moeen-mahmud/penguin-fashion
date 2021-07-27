@@ -53,7 +53,7 @@
           </p>
           <button
             class="
-              bg-green-600
+              bg-yellow-500
               px-3
               py-2
               text-white
@@ -62,7 +62,7 @@
               transition
               duration-500
               ease-out
-              hover:bg-yellow-500
+              hover:bg-yellow-400
             "
           >
             <img src="icons/shopping-cart 1.png" class="w-1/4 inline" alt="" />
@@ -115,7 +115,7 @@
               </div>
               <button
                 class="
-                  bg-green-600
+                  bg-yellow-500
                   px-3
                   py-2
                   text-white
@@ -124,7 +124,7 @@
                   transition
                   duration-500
                   ease-out
-                  hover:bg-yellow-500
+                  hover:bg-yellow-400
                 "
               >
                 <img
@@ -158,7 +158,7 @@
               </div>
               <button
                 class="
-                  bg-green-600
+                  bg-yellow-500
                   px-3
                   py-2
                   text-white
@@ -167,7 +167,7 @@
                   transition
                   duration-500
                   ease-out
-                  hover:bg-yellow-500
+                  hover:bg-yellow-400
                 "
               >
                 <img
@@ -203,7 +203,7 @@
               </div>
               <button
                 class="
-                  bg-green-600
+                  bg-yellow-500
                   px-3
                   py-2
                   text-white
@@ -212,7 +212,7 @@
                   transition
                   duration-500
                   ease-out
-                  hover:bg-yellow-500
+                  hover:bg-yellow-400
                 "
               >
                 <img
@@ -265,7 +265,7 @@
               </div>
               <button
                 class="
-                  bg-green-600
+                  bg-yellow-500
                   px-3
                   py-2
                   text-white
@@ -274,7 +274,7 @@
                   transition
                   duration-500
                   ease-out
-                  hover:bg-yellow-500
+                  hover:bg-yellow-400
                 "
               >
                 <img
@@ -308,7 +308,7 @@
               </div>
               <button
                 class="
-                  bg-green-600
+                  bg-yellow-500
                   px-3
                   py-2
                   text-white
@@ -317,7 +317,7 @@
                   transition
                   duration-500
                   ease-out
-                  hover:bg-yellow-500
+                  hover:bg-yellow-400
                 "
               >
                 <img
@@ -353,7 +353,7 @@
               </div>
               <button
                 class="
-                  bg-green-600
+                  bg-yellow-500
                   px-3
                   py-2
                   text-white
@@ -362,7 +362,7 @@
                   transition
                   duration-500
                   ease-out
-                  hover:bg-yellow-500
+                  hover:bg-yellow-400
                 "
               >
                 <img
@@ -378,48 +378,71 @@
       </section>
       <!-- Features Section -->
       <section class="feature-section container my-20 mx-auto">
-        <div class="feature-container grid grid-cols-2 lg:pl-14 space-y-6">
-          <div class="grid-feature flex items-center gap-12">
-            <div class="feature-img">
-              <img src="./icons/image 12.png" class="w-16 h-16" alt="" />
-            </div>
-            <div class="feature-info">
-              <h1 class="text-2xl font-bold text-gray-800">
-                Find the Perfect Fit
-              </h1>
-              <p class="text-gray-800 w-3/5">
-                Everybody is different, which is why we offer styles for every
-                body.
-              </p>
-            </div>
-          </div>
-          <div class="grid-feature row-span-3">
+        <div
+          class="
+            feature-container
+            flex flex-col
+            px-4
+            lg:grid
+            grid-cols-2
+            lg:pl-14
+            space-y-6
+          "
+        >
+          <div class="grid-feature row-span-3 lg:order-2">
             <img
               src="./images/shopping.png"
               alt=""
               style="width: 600px; height: 355px"
             />
           </div>
-          <div class="grid-feature flex items-center gap-12">
+          <div class="grid-feature lg:flex items-center gap-12 order-1">
             <div class="feature-img">
-              <img src="./icons/image 13.png" class="w-16 h-16" alt="" />
+              <img
+                src="./icons/image 12.png"
+                class="w-16 h-16 mx-auto"
+                alt=""
+              />
             </div>
-            <div class="feature-info">
+            <div class="feature-info text-center lg:text-left">
+              <h1 class="text-2xl font-bold text-gray-800">
+                Find the Perfect Fit
+              </h1>
+              <p class="text-gray-800 lg:w-3/5">
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-feature lg:flex items-center gap-12 order-3">
+            <div class="feature-img">
+              <img
+                src="./icons/image 13.png"
+                class="w-16 h-16 mx-auto"
+                alt=""
+              />
+            </div>
+            <div class="feature-info text-center lg:text-left">
               <h1 class="text-2xl font-bold text-gray-800">Free Exchange</h1>
-              <p class="text-gray-800 w-3/5">
+              <p class="text-gray-800 lg:w-3/5">
                 One of the many reasons you can shop with peace of mind.
               </p>
             </div>
           </div>
-          <div class="grid-feature flex items-center gap-12">
-            <div class="feature-img">
-              <img src="./icons/image 14.png" class="w-16 h-16" alt="" />
+          <div class="grid-feature lg:flex items-center gap-12 order-4">
+            <div class="feature-img text-center">
+              <img
+                src="./icons/image 14.png"
+                class="w-16 h-16 mx-auto"
+                alt=""
+              />
             </div>
-            <div class="feature-info">
+            <div class="feature-info text-center lg:text-left">
               <h1 class="text-2xl font-bold text-gray-800">
                 Contact Our Seller
               </h1>
-              <p class="text-gray-800 w-3/5">
+              <p class="text-gray-800 lg:w-3/5">
                 They are here to help you. That's quite literally what we pay
                 them for.
               </p>
